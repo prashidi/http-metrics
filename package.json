@@ -1,0 +1,27 @@
+{
+  "name": "http-metrics",
+  "version": "1.0.0",
+  "description": "This is a simple Monitoring system application This app sends periodic HTTP request to a URL and records latency and availability for that particular URL. it is similar to pingdom.com but in a very simple and basic way. Anyone is welcome to improve this",
+  "main": "index.js",
+  "scripts": {
+    "package": "zip -r http-metrics.zip .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prashidi/http-metrics.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prashidi/http-metrics/issues"
+  },
+  "homepage": "https://github.com/prashidi/http-metrics#readme",
+  "dependencies": {
+    "axios": "^0.19.0"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.562.0"
+  }
+}
